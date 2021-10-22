@@ -1,5 +1,5 @@
 Hi there 👋, I'm stephen lankas! 🇫🇷 🇵🇹 🇧🇷 🇲🇺 📍 🇨🇦
-Twitter Follow Linkedin: mrkijana
+Twitter Follow on twitter: mrkijana
 
 I'm stephen lankas (he/him). I'm a Front-End Software Engineer by passion and an expat by choice living now in nairobi, kenya. I created the Front-End Checklist in 2021 and have been passionate about open-source since. I'm also an accessibility advocate! I'm always working on a new project to help the community.
 
