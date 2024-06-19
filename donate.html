@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+	 crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+	 crossorigin="anonymous">
+
+	<!--Load hover.css-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" type="text/css" />
+
+	<!--Load CSS File-->
+	<link rel="stylesheet" href="assets/css/style.css" type="text/css">
+
+	<title>Together we fight foundation</title>
+</head>
+
+<body id="bodyColor">
+	<header>
+		<nav class="navbar navbar-expand-sm  navbar-light fixed-top">
+
+			<a href="index.html" class="navbar-brand navBrandColor">Together we fight foundation</a>
+
+			<button class="navbar-toggler ml-auto" data-toggle="collapse" data-target="#navbarNavDropdown" aria-expanded="navbarNavDropdown" aria-controls="false">
+
+            <span class="navbar-toggler-icon"></span></button>
+
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a href="index.html" class="nav-link hvr-shutter-out-vertical">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="map.html" class="nav-link hvr-shutter-out-vertical">Map</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="statistics.html" class="nav-link hvr-shutter-out-vertical">Statistics</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="donate.html" class="nav-link hvr-shutter-out-vertical">Donate</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contact.html" class="nav-link hvr-shutter-out-vertical">Contacts</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <article>
+
+        <!--Carousel for Africa and Asia-->
+
+        <section>
+            <div id="AsiaAfricaCharityCarouselIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#AsiaAfricaCharityCarouselIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#AsiaAfricaCharityCarouselIndicators" data-slide-to="1"></li>
+                    <li data-target="#AsiaAfricaCharityCarouselIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="d-block w-100 charityAsiaPic1" title="First slide">
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="d-block w-100 charityAfricaPic" title="Second slide">
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="d-block w-100 charityAsiaPic2" title="Third slide">
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#AsiaAfricaCharityCarouselIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+             </a>
+                <a class="carousel-control-next" href="#AsiaAfricaCharityCarouselIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+        </section>
+
+        <!-- Main Heading and information of the web page -->
+        <section>
+            <div class="container">
+                <h1 class="charitiesH1 text-center header">Charities</h1>
+                <p class="donatePageTextColor text-center">You will be directed to the pages of the charity organisations. One to three of popular charity organisations are presented for each of the countries that are below. Also, I do not provide donation services.</p>
+                <p class="donatePageTextColor text-center">A calculator can be used to calculate how much you would like to donate by clicking on the calculator icon in the sidebar on the left-hand side of the web page.</p>
+            </div>
+        </section>
+
+        <!--Calculator-->
+        <section id="calculator-wrapper">
+            <div class="calculatorSection container">
+                <div class="justify-content-sm-center row">
+                    <div class="col-12 text-center donatePageTextColor calcTextBG" id="calculatorSectionHeader">
+                        <h5>Click & Hold Here To Move. Calculate How Much You Would Like to Donate</h5>
+                    </div>
+                    <div class="col-12 calc-no-padding">  
+                        <form>
+                            <input type="text" class="screen" />
+                        </form>
+                    </div>
+                </div>
+       
+
+                <div class="row">
+                    <div class="col-12 text-center calc-no-padding">
+                        <div class="buttons">
+                            <!-- Symbol buttons -->
+                            <button type="button" class="calcBtn calcBtnStyle calcBtnGrey" data-num="0">0</button>
+                            <button type="button" class="calcBtn calcBtnStyle calcBtnGrey" data-num="1">1</button>
+                            <button type="button" class="calcBtn calcBtnStyle calcBtnGrey" data-num="2">2</button>
+                            <button type="button" class="calcBtn calcBtnStyle calcBtnYellow" data-num="+">+</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 text-center calc-no-padding">
+                        <div class="buttons">
+                            <!-- number buttons -->
+                            <button type="button" class="calcBtn calcBtnStyle calcBtnGrey" data-num="3">3</button>
+                            <button type="button" class="calcBtn calcBtnStyle calcBtnGrey" data-num="4">4</button>
+                            <button type="button" class="calcBtn calcBtnStyle calcBtnGrey" data-num="5">5</button>
+                            <button type="button" class="calcBtn calcBtnStyle calcBtnYellow" data-num="-">-</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 text-center calc-no-padding">
+                        <div class="buttons">
+                            <!-- number buttons -->
+                            <button type="button" class="calcBtn calcBtnStyle calcBtnGrey" data-num="6">6</button>
+                            <button type="button" class="calcBtn calcBtnStyle calcBtnGrey" data-num="7">7</button>
+                            <button type="button" class="calcBtn calcBtnStyle calcBtnGrey" data-num="8">8</button>
+                            <button type="button" class="calcBtn calcBtnStyle calcBtnYellow" data-num="*">x</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 text-center calc-no-padding">
+                        <div class="buttons">
+                            <!-- number buttons -->
+                            <button type="button" class="calcBtn calcBtnStyle calcBtnGrey" data-num="9">9</button>
+                            <button type="button" class="calcBtn calcBtnStyle calcBtnGrey" data-num=".">.</button>
+                            <button type="button" class="btn-clear calcBtnStyle calcBtnRed">C</button>
+                            <button type="button" class="calcBtn calcBtnStyle calcBtnYellow" data-num="/">/</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-12 text-center calc-no-padding">
+                        <button type="button" class="btn-equal calcBtnStyle calcBtnGreen">=</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Charities for Africa and Asia-->
+
+        <section id="AsiaAfricaSection">
+            <div class="container-fluid">
+                <div class="row">
+
+                   
+                        </div>
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-12">
+                                    <button class="charity-collapse">kajiado,marsabit,transmara, turkana and samburu</button>
+
+                                    <div class="charity-text text-center">
+                                        <h3>together we fight</h3>
+                                        <p>assists those people and give girls and children
+                                            safe places to live in, counselling, education and vocational skills. Also, refugees that have fled from the civil war in South Sudan receive their help, as well. As the civil war and tribal conflicts still
+                                            continue, since 2016, in turkana, people are fleeing for their lives to Uganda. Therefore ChildVoice is helping girls to get education and assists refugees with emotional healing, life skill training, hygiene
+                                            classes algirls in ces in the northeastern part of the country, while manipulating a religion that they claim
+                  
+                                            Around 30,000 children in kajiado used to be forced to be married at an early age. Eventhough, the is over now, many people are still traumatized from the impact of the war and the poverty that they live in. ChildVoice                           to follow. At the mean time, Muslims and Christians aim to live together in peace, as many of them live in regions that are nearby each other, in Nigeria. Therefore, Child Voice helps the refugees, who escaped
+                                            from Boko Haram and takes care of the traumatized people, which are mostly affected women and children. So, ChildVoice is trying their best to help people in Uganda, South Sudan and Nigeria, in order to provide
+                                            a better future for the people and to relieve them physically and mentally.
+                                        </p>
+                                        <a href="contact.html" target="_blank" class="btn donateButtonStyle">Donate here</a>
+                                    </div>
+                                    <div class="charity-1-img"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                    
+                        <div class="container-fluid">
+                
+
+        <div class="d-block d-sm-none">
+            <hr>
+
+            <!--Footer Social Media Icons-->
+
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12">
+                        <ul class="social-media-icons-footer">
+                            <li class="facebook-footer"><a href="http://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a></li>
+                            <li class="twitter-footer"><a href="http://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                            <li class="youtube-footer"><a href="http://www.youtube.com" target="_blank"><i class="fab fa-youtube"></i></a></li>
+                            <li class="instagram-footer"><a href="http://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script type="text/javascript" src="assets/js/donate.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+
+</html>
